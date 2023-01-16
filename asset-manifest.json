@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/css-module-add-user/static/css/main.4e4bfe39.css",
+    "main.js": "/css-module-add-user/static/js/main.01c11fee.js",
+    "index.html": "/css-module-add-user/index.html",
+    "main.4e4bfe39.css.map": "/css-module-add-user/static/css/main.4e4bfe39.css.map",
+    "main.01c11fee.js.map": "/css-module-add-user/static/js/main.01c11fee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4bfe39.css",
+    "static/js/main.01c11fee.js"
+  ]
+}
