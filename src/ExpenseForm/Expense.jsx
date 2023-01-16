@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Expense.css";
+import styles from "./Expense.module.css";
 export const Expense = ({ onTodos }) => {
   const [textInput, setText] = useState("");
   const [numberInput, setNumber] = useState("");
@@ -22,8 +22,8 @@ export const Expense = ({ onTodos }) => {
     }
   };
   return (
-    <div className="containerForm">
-      <form action="" className="form">
+    <div className={styles.containerForm}>
+      <form action="" className={styles.form}>
         <label htmlFor="name">Username</label>
         <input
           type="text"
@@ -40,7 +40,7 @@ export const Expense = ({ onTodos }) => {
           value={numberInput}
           onChange={inputChangeUserAge}
         />
-        <button className="add-btn" onClick={submitHandler}>
+        <button className={styles.addBtn} onClick={submitHandler}>
           Add User
         </button>
       </form>
